@@ -2,38 +2,48 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+<!--IBM Plex Sans-->
+<!--Poiret One-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Poiret+One&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name | Resume</title>
+    <title> K'yahn Martin | Resume</title>
+    
 </head>
 <body>
     <!-- // Intro -->
     <header>
-        <img src="your-picture.jpg" alt="Your Name">
-        <h1>Your Name</h1>
-        <h2>Job title or tagline</h2>
-        <p>Add your profile summary here. You can have several paragraphs or add links.</p>
+        <div class="header-content">
+            <div class="header-text">
+                <h1 id = "top">K'yahn Martin</h1>
+                <h2>Computer Scientist</h2>
+                <p> Experienced in C++, Java, and Javascript</p>
+            </div>
+            <img src="images/K'yahn Martin.jpg" alt="K'yahn Martin" class="profile-img">
+        </div>
     </header>
     
     <main> 
         <!-- // Work Experience -->
-        <section>
+        <!-- I haven't had any yet, so i'm making this section hidden-->
+        <section style="display: none;">
             <h2>Work Experience</h2>
 
             <!-- Job Details: copy this whole block to add more jobs -->
-            <h3>Job title</h3>
-            <p>Company Name</p>
-            <p>Date at job</p>
+            <div class="job-details">
+                <div class="job-title">
+                    <h3>Job title</h3>
+                </div>
+                <div class="job-content">
+                    <p><strong>Company Name</strong></p>
+                    <p>Date at job</p>
+                    <p>Job summary.</p>
+                </div>
+            </div>
             
-            <!-- Add as many paragraphs as you need. -->
-            <p>Job summary.</p>
-            
-            <!-- This list can be deleted if you don't want to use it. -->
-            <p>Optional list:</p>
-            <ul>
-                <li>Created...</li>
-                <li>Lead...</li>
-                <li>Responsible for</li>
-            </ul>
             <!-- end of Job Details block. -->
             
         </section>
@@ -44,11 +54,37 @@
             <h2>Education</h2>
 
             <!-- School details: copy this whole block to add more schools. -->
-            <h3>School name, year you attended</h3>
-            <p>Designation received</p>
-            
-            <!-- Add as many paragraphs as you need. -->
-            <p>Summary.</p>
+            <div class="school-details">
+                <div class="school-name">
+                    <h3>Santa Monica College</h3>
+                </div>
+                <div class="school-content">
+                    <p><strong>2023-2024</strong></p>
+                    <p>Computer Science BS <em>~in progress~</em></p>
+                    <p>
+                        While in SMC I learned C++ and many of the more
+                        fundamental concepts of computer science. I also took
+                        many math classes that helped me understand graph theory
+                        and set theory.
+                    </p>
+                </div>
+            </div>
+
+            <div class="school-details">
+                <div class="school-name">
+                    <h3>California State University Northridge</h3>
+                </div>
+                <div class="school-content">
+                    <p><strong>2025-present</strong></p>
+                    <p>Computer Science BS <em>~in progress~</em></p>
+                    <p>
+                        I am currently at CSUN and so far have learned Java and
+                        Javascript. I have finished the required math classes and
+                        have completed a group project where we built a website for 
+                        an imaginary airline.
+                    </p>
+                </div>
+            </div>
             <!-- End of school details. -->
         </section>
     </main>
@@ -59,14 +95,13 @@
         
         <!-- Social media and contact links. Add or remove any networks. -->
         <div>
-            <a href="mailto:email@example.com">email@example.com</a>
+            <a href="mailto:kyahn.martin.264@my.csun.edu" target="_blank">kyahn.martin.264@my.csun.edu</a>
             <a href="http://yourwebsite.com" target="_blank">yourwebsite.com</a>
-            <a href="#" target="_blank">Twitter</a>
-            <a href="#" target="_blank">LinkedIn</a>
-            <a href="#" target="_blank">Facebook</a>
+            <a href="https://github.com/Kyahn-Martin" target="_blank">Github</a>
         </div>
 
-        <p>Copyright 2017 by Your Name</p>
+        <p>Copyright 2026 by K'yahn Martin</p>
+        <a href="#top">Back to top</a>
     </footer>
 </body>
 </html>
